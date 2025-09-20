@@ -27,5 +27,14 @@ canvas{
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(147, 192, 49, 0.5);
 }
+.button{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    box-shadow: 0 0 20px rgba(120, 129, 40, 0.5);
+    color:whitesmoke;
+    background-color: rgb(16, 16, 33);
+}
+
 
  

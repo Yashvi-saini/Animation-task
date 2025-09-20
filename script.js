@@ -27,6 +27,7 @@ addEventListener('resize', () => {
   init()
 })
 
+// Objects
 class Particle {
   constructor(x, y, radius, color) {
     this.x = x
@@ -50,6 +51,7 @@ class Particle {
   }
 }
 
+// Implementation
 let particles
 function init() {
   particles = []
@@ -66,6 +68,8 @@ function init() {
     particles.push(new Particle(x, y, radius, color))
   }
 }
+
+// Animation Loop
 let radians = 0
 let alpha = 1
 function animate() {
